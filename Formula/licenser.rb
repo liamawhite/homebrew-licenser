@@ -2,14 +2,14 @@
 class Licenser < Formula
   desc "Verify and append licenses to your GitHub repositories"
   homepage "https://github.com/liamawhite/licenser"
-  version "0.3.0"
+  version "0.3.1"
 
   if OS.mac?
-    url "https://github.com/liamawhite/licenser/releases/download/v0.3.0/licenser_0.3.0_Darwin_x86_64.tar.gz"
-    sha256 "af874ba87d3084bed77f77ae2e4e82234b72e9d5f1075fdebef9c95c8002cf9e"
+    url "https://github.com/liamawhite/licenser/releases/download/v0.3.1/licenser_0.3.1_Darwin_x86_64.tar.gz"
+    sha256 "5ae404288c7047dbab0c96988b6e79f99494a2aaac7d2be83ca4d517d625b8c9"
   elsif OS.linux?
-    url "https://github.com/liamawhite/licenser/releases/download/v0.3.0/licenser_0.3.0_Linux_x86_64.tar.gz"
-    sha256 "74872b9374eb7909942d14b75314087e074003f9e729bfd02fe4ca24fd0f489f"
+    url "https://github.com/liamawhite/licenser/releases/download/v0.3.1/licenser_0.3.1_Linux_x86_64.tar.gz"
+    sha256 "4a26c55ed6d657e067131207a64c4ac324482081ff82138e34d0790664d2abcf"
   end
 
   def install
